@@ -14,6 +14,9 @@
 		6A6F09682CAD745700B21C67 /* classmateApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F09662CAD745700B21C67 /* classmateApp.xcdatamodeld */; };
 		6A6F096A2CAD745800B21C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F09692CAD745800B21C67 /* Assets.xcassets */; };
 		6A6F096D2CAD745800B21C67 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F096C2CAD745800B21C67 /* Base */; };
+		6A6F09752CAD753C00B21C67 /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F09742CAD753C00B21C67 /* AddStudentViewController.swift */; };
+		6A6F09772CAD759000B21C67 /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F09762CAD759000B21C67 /* ClassViewController.swift */; };
+		6A6F09792CAD75CA00B21C67 /* classClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F09782CAD75CA00B21C67 /* classClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		6A6F09692CAD745800B21C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A6F096C2CAD745800B21C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A6F096E2CAD745800B21C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A6F09742CAD753C00B21C67 /* AddStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
+		6A6F09762CAD759000B21C67 /* ClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
+		6A6F09782CAD75CA00B21C67 /* classClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				6A6F095F2CAD745700B21C67 /* SceneDelegate.swift */,
 				6A6F09612CAD745700B21C67 /* ViewController.swift */,
 				6A6F09632CAD745700B21C67 /* Main.storyboard */,
+				6A6F09782CAD75CA00B21C67 /* classClass.swift */,
+				6A6F09762CAD759000B21C67 /* ClassViewController.swift */,
+				6A6F09742CAD753C00B21C67 /* AddStudentViewController.swift */,
 				6A6F09692CAD745800B21C67 /* Assets.xcassets */,
 				6A6F096B2CAD745800B21C67 /* LaunchScreen.storyboard */,
 				6A6F096E2CAD745800B21C67 /* Info.plist */,
@@ -142,7 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A6F09622CAD745700B21C67 /* ViewController.swift in Sources */,
+				6A6F09752CAD753C00B21C67 /* AddStudentViewController.swift in Sources */,
+				6A6F09792CAD75CA00B21C67 /* classClass.swift in Sources */,
 				6A6F095E2CAD745700B21C67 /* AppDelegate.swift in Sources */,
+				6A6F09772CAD759000B21C67 /* ClassViewController.swift in Sources */,
 				6A6F09602CAD745700B21C67 /* SceneDelegate.swift in Sources */,
 				6A6F09682CAD745700B21C67 /* classmateApp.xcdatamodeld in Sources */,
 			);
