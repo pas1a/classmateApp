@@ -55,7 +55,7 @@ class ClassClass{
     }
     
     func toString() -> String{
-        var bob = "Name: \(name) \n Hight: \(hight) \n Weight: \(weight) \n GPA: \(gpa) \n Graduation Year \(gradYear) \n Gender: \(sex) \n"
+        let bob = "Name: \(name) \n Hight: \(hight) \n Weight: \(weight) \n GPA: \(gpa) \n Graduation Year \(gradYear) \n Gender: \(sex) \n"
         return bob
     }
     
