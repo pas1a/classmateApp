@@ -10,6 +10,8 @@ import UIKit
 class ClassViewController: UIViewController {
 
     @IBOutlet weak var classTextView: UITextView!
+    
+    var text = ""
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,6 +21,11 @@ class ClassViewController: UIViewController {
         
     }
     @IBAction func refrershButton(_ sender: UIButton) {
+        for ClassClass in GlobalClass.clasHolder{
+            text += ClassClass.toString()
+        }
+        classTextView.text = text
+
     }
     
     
