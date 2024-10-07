@@ -21,12 +21,16 @@ class ClassViewController: UIViewController {
         
     }
     @IBAction func refrershButton(_ sender: UIButton) {
-        for ClassClass in GlobalClass.clasHolder{
-            text += ClassClass.toString()
-        }
-        classTextView.text = text
+       
 
     }
+    @IBAction func nextButton(_ sender: UIButton) {
+        
+        
+        
+    }
+    
+    
     
     
 
