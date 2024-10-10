@@ -41,7 +41,7 @@ class ClassClass{
     func changeHight(newHight: Double){
         hight = newHight
     }
-    func changeName(newWeight: Int){
+    func changeWeight(newWeight: Int){
         weight = newWeight
     }
     func changeGPA(newGPA: Double){
